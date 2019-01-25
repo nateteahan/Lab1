@@ -1,0 +1,52 @@
+.bg-dark {
+  background-color: #7DD3D8 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: #333;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+img {
+  max-height: 1200px;
+}
+
+img {
+  max-width: : 800px;
+}
+
+.navbar-brand {
+  border: 1px solid #fff;
+  padding: 10px;
+}
+
+/* Image Grid */
+.portfolio {
+  display: grid;
+  grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.image img {
+  width: 10%;
+}
+
+.masonry { /* Masonry container */
+    column-count: 4;
+    column-gap: 1em;
+}
+
+.item { /* Masonry bricks or child elements */
+    background-color: #eee;
+    display: inline-block;
+    margin: 0 0 1em;
+    width: 100%;
+}
+
+.a {
+  text-align: center;
+}
