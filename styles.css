@@ -73,7 +73,48 @@ body {
   text-align: center;
 }
 
+.left {
+  text-align: left;
+  margin-left: 725px;
+}
+
 .top {
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+/*------------------------*\
+      Dead Center text
+/*------------------------*/
+.middle {
+    left: 0;
+    line-height: 200px;
+    margin: auto;
+    margin-top: -100px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+/*------------------------*\
+      Text fonts/styles
+/*------------------------*/
+p.italic {
+  font-style: italic;
+}
+
+p.oblique {
+  font-style: oblique;
+}
+
+p.serif {
+  font-family: "Times New Roman", Times, serif;
+}
+
+p.large {
+  font-size: 25px;
+}
+
+p.medium {
+  font-size: 18px;
 }
